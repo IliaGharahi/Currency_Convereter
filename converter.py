@@ -212,13 +212,3 @@ def convert(FromCurrency, ToCurrency, amnt, ReplaceComma=True):
         response["converted"] = True
         return json.dumps(response)
 
-
-
-
-
-
-
-
-
-
-       
